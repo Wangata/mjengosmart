@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+Getting Started
+Before you get started, there are some prior conditions or prerequisites required by your system. Make sure that your system:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Has a good installer: 
+In the process, you will be downloading multiple software packages, so in order to have a fluent and hassle-free process, you need a decent installer or a package manager.
+Has an NPM:
+NPM (Node Package Manager) is probably the best package manager for this task. We will be dealing with JavaScript in this piece of programming, and to run the framework of JavaScript in the given environment, we need NPM.To use this you’ll need to install Node.js. Once you’ve downloaded Node.js, NPM is automatically installed.
+Installing NPM and Nord.js:
+[Go to this link Node.js](https://nodejs.org/en/)
+Download the current latest features version - not the LTS version 
+While installing Node.js, install NPM with it too
+Why Install Node.js?
+While installing Node.js, in the customs settings options you will see an option for NPM package manager. As noted by its name Node Package Manager (NPM) is basically an additional feature that you get with Node.js along with its useful features.
 
-## Available Scripts
+You can’t have the Node Package Manager (NPM) separately without installing the Node.js, so you need to have Node.s for this task.
 
-In the project directory, you can run:
+Install a Text Editor
 
-### `yarn start`
+You also need to have a text editor. You aren’t bound to a specific editor, however I recommend you choose the text editor by Visual Studio also called the VS Code or the Visual Studio Code. It can be easily downloaded from Visual Studio’s website here. 
+https://code.visualstudio.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Using Create React App: The NPX method 
+This method is called the NPX method, the general form of a NPX command that has to be used is as follows: npx create-react-app<project_name>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In our case we replace the project name with: npx create-react-app mjengo-smart
 
-### `yarn test`
+To make a new Create application, we use the Create React App which is a command-line interface tool. The purpose of Create React App is to enable you to make, and run, the React applications without having to do any configurations. With the Create React App, all you need to do is run a simple command and your desired React project has been made.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps if you ever want to create another rect app in future:
+Open the integrated terminal in visual studio and run the following command:
 
-### `yarn build`
+npx create-react-app hello-world
+npx create-react-app hello-world
+Here we chose “hello world” as the name of our project. You can choose whatever you like.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After running this command successfully, you should be able to see an application folder created with the name you chose.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Now to run this app, you’ll need to initially need to navigate within the folder containing the project. This can be done by the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you’ve applied this command, it will lead you to your web browser where you would be able to see http://localhost:3000/ running with your application.
 
-### `yarn eject`
+Now go back to your Visual Studio: 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Click on the arrow icon next to the “hello world” folder to see further options by expanding it
+From there expand the source folder by clicking on the arrow next to “src” 
+From the displayed options open “ App.js”
+Edit the text by changing it to Hello Word
+Save your work in the file
+Once you’ve saved the file, the browser would automatically refresh displaying your first React application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Using the NPM Method
+There is an alternate method which is known as the NPM method. To do this, you will have to create the React app globally. After doing this, you can use the package to create projects or apps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install the package globally by using the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm-install-create-react-app -g 
+After installing it, use another command as follows:
 
-## Learn More
+create-react-app<project_name>
+Why do we use the NPX approach rather than the NPM method?
+The NPX approach makes completing your task easier and hassle-free as you don’t need to install the package globally. With the NPM method, you need to install it globally and constantly update the Create app package.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
