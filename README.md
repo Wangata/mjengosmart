@@ -3,12 +3,17 @@ Before you get started, there are some prior conditions or prerequisites require
 
 Has a good installer: 
 In the process, you will be downloading multiple software packages, so in order to have a fluent and hassle-free process, you need a decent installer or a package manager.
+
 Has an NPM:
 NPM (Node Package Manager) is probably the best package manager for this task. We will be dealing with JavaScript in this piece of programming, and to run the framework of JavaScript in the given environment, we need NPM.To use this you’ll need to install Node.js. Once you’ve downloaded Node.js, NPM is automatically installed.
+
+
 Installing NPM and Nord.js:
 [Go to this link Node.js](https://nodejs.org/en/)
 Download the current latest features version - not the LTS version 
+
 While installing Node.js, install NPM with it too
+
 Why Install Node.js?
 While installing Node.js, in the customs settings options you will see an option for NPM package manager. As noted by its name Node Package Manager (NPM) is basically an additional feature that you get with Node.js along with its useful features.
 
