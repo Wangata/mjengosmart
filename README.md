@@ -57,12 +57,13 @@ Using the NPM Method
 There is an alternate method which is known as the NPM method. To do this, you will have to create the React app globally. After doing this, you can use the package to create projects or apps.
 
 Install the package globally by using the following command:
-
 npm-install-create-react-app -g 
-After installing it, use another command as follows:
 
+After installing it, use another command as follows:
 create-react-app<project_name>
+
 Why do we use the NPX approach rather than the NPM method?
+
 The NPX approach makes completing your task easier and hassle-free as you don’t need to install the package globally. With the NPM method, you need to install it globally and constantly update the Create app package.
 
 Happy coding!
