@@ -154,3 +154,5 @@ export function SignupForm(props) {
     </BoxContainer>
   );
 }
+
+export default App;
