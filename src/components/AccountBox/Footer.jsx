@@ -3,7 +3,7 @@ const Footer=() => {
     return(
         <div>
             <h4>Copyright <br />
-             Mjengo Smart 2022</h4>
+             Mjengo Smart App 2022</h4>
         </div>
     )
 }
