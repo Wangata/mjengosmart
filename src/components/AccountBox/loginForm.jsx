@@ -34,7 +34,7 @@ export function LoginForm(props) {
       <MutedLink href="#">
         Already Signed in?
         <BoldLink href="#" onClick={switchToSignin}>
-          Go to Profile
+          Go to your Profile
         </BoldLink>
       </MutedLink>
     </BoxContainer>
