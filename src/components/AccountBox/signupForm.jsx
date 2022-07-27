@@ -27,7 +27,7 @@ const validationSchema = yup.object({
   email: yup.string().email("Please enter a valid email address").required(),
   password: yup
     .string()
-    .matches(PASSWORD_REGEX, "Please enter a strong password")
+    .matches(PASSWORD_REGEX, "Please enter a Strong Password")
     .required(),
   confirmPassword: yup
     .string()
