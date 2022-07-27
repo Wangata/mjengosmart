@@ -10,7 +10,7 @@ import { AccountContext } from "./accountContext";
     {
       <MutedLink href="#">
         <BoldLink href="#" onClick={switchToSignin}>
-          Logout
+          Log Out
         </BoldLink>
       </MutedLink
 }
