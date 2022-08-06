@@ -1,5 +1,5 @@
 Getting Started
-Before you get started, there are some prior conditions or prerequisites required by your system. Make sure that your system:
+Before you get started, there are some prior conditions or prerequisites required by your system. Make sure that your system
 
 Has a good installer: 
 In the process, you will be downloading multiple software packages, so in order to have a fluent and hassle-free process, you need a decent installer or a package manager.
@@ -9,6 +9,7 @@ NPM (Node Package Manager) is probably the best package manager for this task. W
 
 
 Installing NPM and Nord.js:
+
 [Go to this link Node.js](https://nodejs.org/en/)
 Download the current latest features version - not the LTS version 
 
