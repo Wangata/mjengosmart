@@ -20,8 +20,6 @@ While installing Node.js, in the customs settings options you will see an option
 
 You can’t have the Node Package Manager (NPM) separately without installing the Node.js, so you need to have Node.s for this task.
 
-Install a Text Editor
-
 You also need to have a text editor. You aren’t bound to a specific editor, however I recommend you choose the text editor by Visual Studio also called the VS Code or the Visual Studio Code. It can be easily downloaded from Visual Studio’s website here. 
 https://code.visualstudio.com/
 
